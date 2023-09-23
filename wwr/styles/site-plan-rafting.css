@@ -2,14 +2,14 @@
 :root {
   --primary-color: hsl(0, 0%, 0%);
   --secondary-color: #ADA8A8;
-  --accent1-color: #e5eeee;
+  --accent1-color: #C9C36A;
   --accent2-color: #C9C36A;
 
   --heading-font: 'Sofia', serif;
   --paragraph-font: 'Sofia', serif;
 
-  --nav-background-color: #A8F1F7;
-  --nav-link-color: #EAF7FE;
+  --nav-background-color: #C9C36A;
+  --nav-link-color: #091820;
   --nav-hover-link-color: #FDFCFB;
   --nav-hover-background-color: #FDFCFB;
 }
