@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap'); 
 :root {
   --primary-color: hsl(0, 0%, 0%);
   --secondary-color: #ADA8A8;
@@ -8,10 +8,10 @@
   --heading-font: 'Sofia', serif;
   --paragraph-font: 'Sofia', serif;
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: #A8F1F7;
+  --nav-link-color: #EAF7FE;
+  --nav-hover-link-color: #FDFCFB;
+  --nav-hover-background-color: #FDFCFB;
 }
 
 body {
@@ -26,19 +26,20 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 nav {
-    background-color: var(#555);
+    background-color: var(--nav-background-color);
     font-size: 1.5rem;
     display: flex;
   }
   
   nav a {
     display: block;
-    color: var(#ee2f2f);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
   }
   
   nav a:link, nav a:visited {
+
     color: var(#3d04c4);
   }
   
@@ -47,7 +48,7 @@ nav {
     background-color: var(#555);
   }
   p {
-    padding: 25px;
+    padding: 0px;
   }
   header {
     padding: 20px;
