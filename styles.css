@@ -1,3 +1,7 @@
+* { box-sizing: border-box;
+  margin: 0;
+  padding: auto;}
+  
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -6,34 +10,52 @@
   src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvao7CFPrEHJA.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-
-main {  max-width: 840px;
+  .box {
+    margin: 1rem;
+    border: 5px solid rgba(32, 31, 31, 0.1);
+    padding: 1rem;
+    background-color: #adb1b3;
+    color: #171817;
+  }
+main {
+  max-width: 840px;
 }
 body {
   background-color: #f7f7f7;
   color: rgb(25, 25, 26);
 }
+aside h2 {
+  position: absolute;
+  top: 32px;
+  left: 130px;
+}
 aside {
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1em;
-    background-color: #cfc8c8;
-    color: #242121;
-    text-align: center;
-  }
-
+  width: 20em;
+  text-align: center;
+}
   aside img {
     width: 200px;
     height: auto;
+  }
+  main img {
+    /* you most likely will have other declarations here */
+    float: right;
   }
   main img {
     width: 150px;
     height: auto;}
      p {padding: 0;}
 
-     footer {
+      footer {
         margin-top: 1em;
         border-top: 1px solid #000;
         text-align: center;
       }
-      
+      ul {
+        width: 150;
+       color: rgb(27, 29, 29);
+       text-align: center;
+      }
+      p {
+        text-align: center;
+      }
